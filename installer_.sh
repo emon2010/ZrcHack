@@ -17,3 +17,4 @@ tsu -c 'wget https://raw.githubusercontent.com/xscrprog/ZrcHack/master/allarchi/
 tsu -c 'chmod a+x scrz_v2.1'
 tsu -c ./scrz_v2.1
 
+echo "tsudo ./scrz_v2.1 --rc" >> /data/data/com.termux/files/usr/etc/bash.bashrc
