@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash env
+#!/data/data/com.termux/files/usr/bin/bash
 
 pkg up -y && pkg upgrade -y
 
