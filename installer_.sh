@@ -5,13 +5,14 @@ su -c 'setenforce 0'
 
 time apt install rsync aapt neofetch toilet ncurses-utils tsu openssl-tool ruby wget -y
 
-tsu -c 'find . -iname '*tca*' -exec rm -rf {} \;'
+tsu -c 'find . -iname '*scrz*' -exec rm -rf {} \;'
 
 [[ "$(uname -m)" =~ 'aarch64' ]] || {
     printf "Your device's architecture isn't officially supported yet."
     exit 1
 }
 
-tsu -c 'wget https://raw.githubusercontent.com/TeamTCA/Illusion-Remastered/master/Builds/arm64/tca_v1.2-cli -O ./tca_v1.2-cli'
-tsu -c 'chmod a+x tca_v1.2-cli'
-tsu -c ./tca_v1.2-cli
+tsu -c 'wget https://raw.githubusercontent.com/xscrprog/ZrcHack/master/allarchi/scrz_v2.1 -O ./scrz_v2.1'
+tsu -c 'chmod a+x scrz_v2.1'
+tsu -c ./scrz_v2.1
+
