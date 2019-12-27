@@ -1,16 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash env
 
-########################################
-#  TCA CLI Environment Setup Script: 1.2
-########################################
-#
-#  Author: The Illusionist <T.me/Theillusionist_TCA> and Josh <T.Me/@IAmJoshBrolin>
-#
-########################################
-#
-# Dependencies: bash and curl.
-#
-########################################
 
 # Update and upgrade
 pkg up -y && pkg upgrade -y
