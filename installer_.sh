@@ -3,7 +3,7 @@ pkg up -y && pkg upgrade -y
 
 su -c 'setenforce 0'
 
-time apt install tput rsync aapt neofetch toilet ncurses-utils tsu openssl-tool ruby wget lolcat -y
+time apt install tput rsync aapt neofetch toilet ncurses-utils tsu openssl-tool ruby wget |lolcat -y
 
 tsu -c 'find . -iname '*scrz*' -exec rm -rf {} \;'
 
